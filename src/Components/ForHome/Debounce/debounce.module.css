@@ -1,0 +1,22 @@
+#mainbox{
+    border-color: rgb(0, 136, 255);
+    background: RGBA(0, 0, 0, 0.16);
+    overflow-y: scroll;
+}
+#mainbox::-webkit-scrollbar,
+#whitebox::-webkit-scrollbar{
+    display: none;
+}
+#whitebox{
+    border-color: rgb(0, 136, 255);
+    background: #FFFFF0;
+    overflow-y: scroll;
+}
+#mainboxCursor:hover{
+    cursor: pointer;
+    color: wheat;
+} 
+#whiteboxCursor:hover{
+    cursor: pointer;
+    color: rgb(255, 128, 173);
+}
